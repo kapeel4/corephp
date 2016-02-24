@@ -1,0 +1,112 @@
+.bbody{
+	background: #336699;
+}
+
+nav{
+	height: 575px;
+	width: 300px;
+	background: #ccc;
+	float: left;
+	margin: 2px 0px 0px 50px;
+}
+
+nav img{
+	margin-bottom: 30px;
+}
+
+nav ul li{
+	height: 20px;
+	width: 210px;
+	padding: 20px;
+	display: block;
+	list-style: none;
+}
+nav ul li:hover{
+	background: #ffffff;
+	color: #ffffff;
+}
+
+nav ul li a{
+	display: block;
+	text-decoration: none;
+	color: black;
+	text-align: center;
+	line-height: 20px;
+}
+
+.content{
+	float: right;
+	height: 570px;
+	width: 930px;
+	background: #ffffff;
+	margin: 2px 38px 0px 0px; 
+}
+
+footer{
+	height: 75px;
+	width: 1248px;
+	background: #cccccc;
+	margin-top: 585px;
+	margin-left: 50px;
+	position: absolute;
+	color: #336699;
+}
+
+.info{
+	text-align: center;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	margin: 220px 0px 0px -95px;
+	font-size: 35px;
+	color: #336699;
+}
+
+.log{
+	margin: -32px 50px 0px 0px;
+	float: right;
+}
+
+.log form input[type=submit]{
+	height: 20px;
+	width: 55px;
+	background: #336699;
+}
+
+.log form input[type=submit]:hover{
+	background: orange;
+	color: #ffffff;
+}
+
+.add{
+	margin: 15px 0px 5px 800px; 
+}
+button{
+	background: skyblue;
+	cursor: pointer;
+}
+
+button:hover{
+	background: lightgreen;
+}
+
+table{
+	margin: 15px;
+	border: 2px #000000 solid;
+	border-collapse:collapse;
+	border-spacing: inherit;
+}
+
+table thead tr td{
+	font-family: fantasy;
+	background: lightgreen;
+
+}
+table tr td{
+	padding: 20px;
+    font-family: sans-serif;
+    background: green;
+}
+
+.text{
+	 text-align: justify;
+    text-justify: inter-word;
+}
